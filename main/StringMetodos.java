@@ -23,5 +23,10 @@ public class StringMetodos {
 			System.out.println(mensaje);
 			System.out.printf("El total por sus %d cursos que incluyen %s, es de %.2f MX",4, curso, precioFinal);
 			
+			int cantidad = 10;
+			boolean mayor = cantidad > 5;
+
+			String resultado = String.format("La cantidad es mayor a %d : %b", cantidad, mayor);
+			System.out.println(resultado);
 		}
 }
