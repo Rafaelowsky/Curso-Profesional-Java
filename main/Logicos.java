@@ -13,5 +13,11 @@ public class Logicos {
 			
 			resultado = (21 > (2*10) || 24 > 12) && (74 < 10 || 10 <= 10);
 			System.out.println(resultado);
+			
+			resultado = !true; // !true = false
+			System.out.println(resultado);
+			
+			resultado = !false; // !false = true
+			System.out.println(resultado);
 		}
 }
