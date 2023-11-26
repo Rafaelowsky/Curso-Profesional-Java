@@ -3,7 +3,8 @@ package main;
 public class Matrices {
 	public static void main(String[] args) {
 		
-		int matriz[][] = new int [4][3];
+		// Con esta declaración creamos una nueva matriz/arreglo
+		int matriz[][] = new int [4][4];
 		
 		matriz[0][0] = 1;
 		matriz[0][1] = 2;
@@ -21,8 +22,16 @@ public class Matrices {
 		matriz[3][1] = 2;
 		matriz[3][2] = 3;
 		
+		//Así podemos imprimir algun dato de nuestra matriz
 		System.out.println(matriz[0][0]);
-	}
+		
+		// Con este for podemos recorrer e imprimir todos los datos de nuestra matriz
+		for (int posX = 0; posX < matriz.length ; posX ++) {
+			for (int posY = 0; posY < matriz.length ; posY ++) {
+				System.out.println(matriz[posX][posY]);
+			}
+		}
+	} 
 	
 	
 }
