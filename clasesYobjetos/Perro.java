@@ -12,6 +12,12 @@ public class Perro {
 	String raza;
 	int edad;
 	
+	void establecerAtributos (String nombrePerro, String razaPerro, int edadPerro) {
+		nombre = nombrePerro;
+		raza = razaPerro;
+		edad = edadPerro;
+	}
+	
 	void dormir() {
 		System.out.println("El perro se encuentra durmiendo");
 	}
