@@ -15,5 +15,13 @@ public class Main {
 		caramelo.dormir();
 		caramelo.ladrar();
 		
+		Triangulo triangulo = new Triangulo();
+		
+		triangulo.base = 10;
+		triangulo.altura = 10;
+		
+		float resultado = triangulo.area();
+		System.out.println(resultado);
+		
 	}
 }
