@@ -5,9 +5,7 @@ public class Main {
 	
 		Perro caramelo = new Perro(); // Instacia = crear objeto en base de una clase
 		
-		caramelo.nombre = "Caramelo";
-		caramelo.raza = "Criolla";
-		caramelo.edad = 10;
+		caramelo.establecerAtributos("Caramelo", "Criolla", 10);
 		
 		System.out.println("El nombre es " + caramelo.nombre);
 		System.out.println("La raza es " + caramelo.raza);
