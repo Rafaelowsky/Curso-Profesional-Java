@@ -13,10 +13,10 @@ public class Perro {
 	int edad;
 	
 	// El método void no devuelve valor alguno
-	void establecerAtributos (String nombrePerro, String razaPerro, int edadPerro) {
-		nombre = nombrePerro;
-		raza = razaPerro;
-		edad = edadPerro;
+	void establecerAtributos (String nombre, String raza, int edad) {
+		this.nombre = nombre;
+		this.raza = raza;
+		this.edad = edad;
 	}
 	
 	void dormir() {
