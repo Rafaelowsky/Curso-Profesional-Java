@@ -6,7 +6,7 @@ public class Triangulo {
 	float altura;
 	
 	float area() {
-		float area = ((this.base * this.altura)/2);
-		return area;
+		return ((this.base * this.altura)/2); // = float area ((this.base * this.altura)/2);
+											  // return area;
 	}
 }
