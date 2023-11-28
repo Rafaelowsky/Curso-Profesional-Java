@@ -13,5 +13,9 @@ public class Main {
 		System.out.println("La raza es " + caramelo.raza);
 		System.out.println("Tiene la edad de " + caramelo.edad + " años");
 		
+		caramelo.comer();
+		caramelo.dormir();
+		caramelo.ladrar();
+		
 	}
 }
