@@ -18,4 +18,12 @@ public class Usuario {
 	public void saluda() {
 		System.out.println("Hola, mi username es " + this.username);
 	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
 }
