@@ -1,4 +1,4 @@
-package modificadoresAcceso;
+package main;
 
 public class Usuario {
 	public String username;
