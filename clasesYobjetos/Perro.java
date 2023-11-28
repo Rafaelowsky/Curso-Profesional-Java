@@ -14,6 +14,9 @@ public class Perro {
 	
 	// El método void no devuelve valor alguno
 	void establecerAtributos (String nombre, String raza, int edad) {
+		
+		// Cuando utilizamos this, este nos ayuda a declarar que vamos a utilizar el atributo de la clase
+		// no el parametro del método establecerAtributos
 		this.nombre = nombre;
 		this.raza = raza;
 		this.edad = edad;
