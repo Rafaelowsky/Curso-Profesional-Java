@@ -12,4 +12,15 @@ public class Perro {
 	String raza;
 	int edad;
 	
+	void dormir() {
+		System.out.println("El perro se encuentra durmiendo");
+	}
+	
+	void comer() {
+		System.out.println("El perro se encuentra comiendo");
+	}
+	
+	void ladrar() {
+		System.out.println("El perro se encuentra ladrando");
+	}
 }
