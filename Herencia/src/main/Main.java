@@ -7,7 +7,7 @@ public class Main {
 
 		Gato Tucho = new Gato("Tucho", "Criollo", 12);
 		
-		Firulais.ladrar();
+		Firulais.dormir();
 		
 		Tucho.dormir();
 	}
