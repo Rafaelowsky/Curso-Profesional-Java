@@ -1,8 +1,15 @@
 package main;
 
 public class Usuario {
+	
 	public String username;
 	private String password; // Esta variable solo es accesible dentro de esta clase
+	
+	// "Constructor"
+	public Usuario (String username, String password) {
+		this.username = username; 
+		this.password = password;
+	}
 	
 	//Estos son los tipos de encapsulamientos que hay:
 	
@@ -19,10 +26,12 @@ public class Usuario {
 		System.out.println("Hola, mi username es " + this.username);
 	}
 
+	//Getter
 	public String getPassword() {
 		return password;
 	}
 
+	//Setter
 	public void setPassword(String password) {
 		this.password = password;
 	}

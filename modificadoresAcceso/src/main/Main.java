@@ -14,7 +14,7 @@ public class Main {
 		Alex.setPassword("12345");
 
 		if (Alex.getPassword() == "12345") {
-			System.out.println("Hola " + Alex.username + ", Bienvenido");
+			Alex.saluda();
 		}
 	}
 }
