@@ -6,7 +6,8 @@ public class Gato {
 	String raza;
 	int edad;
 	
-	void establecerAtributos (String nombre, String raza, int edad) {
+	// Constructor
+	public Gato (String nombre, String raza, int edad) {
 		
 		this.nombre = nombre;
 		this.raza = raza;
