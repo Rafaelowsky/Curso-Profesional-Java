@@ -7,6 +7,9 @@ public class Main {
 
 		Gato Tucho = new Gato("Tucho", "Criollo", 12);
 		
+		System.out.println(Firulais.getNombre());
+		System.out.println(Tucho.getNombre());
+		
 		Firulais.dormir();
 		
 		Tucho.dormir();

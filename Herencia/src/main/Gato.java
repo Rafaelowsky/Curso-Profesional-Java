@@ -8,10 +8,8 @@ public class Gato extends Mascota {
 
 	// Constructor
 	public Gato(String nombre, String raza, int edad) {
-
-		this.nombre = nombre;
-		this.raza = raza;
-		this.edad = edad;
+		// Con este super llamamos al constructor de la clase padre = Mascota
+		super(nombre,raza,edad);
 	}
 
 	/*

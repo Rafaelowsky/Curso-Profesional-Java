@@ -6,6 +6,13 @@ public class Mascota {
 	String raza;
 	int edad;
 	
+	// Sobre-escritura de constructor
+	public Mascota (String nombre, String raza, int edad) {
+		this.nombre = nombre;
+		this.raza = raza;
+		this.edad = edad;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
