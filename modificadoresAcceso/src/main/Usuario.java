@@ -10,7 +10,17 @@ public class Usuario {
 		this.username = username;
 		this.password = password;
 	}
-
+	
+	// "Sobrecarga de constructores"
+	public Usuario() {
+		this.username = "";
+		this.password = "";
+	}
+	
+	public Usuario(String username) {
+		this.username = username;
+		this.password = "";
+	}
 	// Estos son los tipos de encapsulamientos que hay:
 
 	// private: Accesible solo dentro de la misma clase.
