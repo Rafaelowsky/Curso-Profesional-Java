@@ -7,6 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		// Instancia
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("¿Cual es tu nombres?");
