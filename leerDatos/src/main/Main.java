@@ -10,7 +10,7 @@ public class Main {
 		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("¿Cual es tu nombres?");
+		System.out.println("¿Cual es tu nombre?");
 		
 		// Con .nextLine() vamos a tomar los datos que ingreso el usuario en la siguiente linea
 		String nombre = sc.nextLine();
@@ -23,11 +23,14 @@ public class Main {
 		// Para recibir flotantes
 		float estatura = sc.nextFloat();
 		
+		sc.nextLine();
+		
 		System.out.println("¿El curso es de tu agrado?");
 		// Para recibir flotantes
-		boolean gusto = sc.nextBoolean();
+		boolean gusto = sc.nextLine().equals("si");
 		
 		System.out.println("Hola " + nombre + edad + estatura + gusto);
 		
+		sc.close();
 	}
 }
