@@ -4,9 +4,9 @@ Nombrar paquetes en Java: Utiliza nombres significativos y descriptivos en minú
 Evita nombres genéricos o excesivamente largos para mantener la claridad y la comprensión del código.
 */
 
+//Con esto importamos la clase dentro de otro paquete para poder ocuparla dentro de esta clase
+//Podemos importar todas las clases si en vez de la clase ponemos un *
 import com.codigofacilito.cursos.*;
-// Con esto importamos la clase dentro de otro paquete para poder ocuparla dentro de esta clase
-// Podemos importar todas las clases si en vez de la clase ponemos un *
 
 public class Main {
 	public static void main(String[] args) {
